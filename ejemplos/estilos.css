@@ -1,0 +1,37 @@
+body{
+    font-size: 1rem;
+    background-color: rgb(64, 64, 64);
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 1%;
+        overflow: hidden;
+}
+
+td{
+    padding: 1rem;
+    border: 1px solid black;
+    text-align:left;
+}
+
+thead{
+    background-color: black;
+    color: grey;
+}
+
+#marzo{
+    text-align: center;
+}
+
+TBODY tr:nth-child(2n){
+    background-color: grey;
+}
+
+TBODY TR:nth-child(2n+1){
+    background-color: rgb(255, 255, 255);
+}
